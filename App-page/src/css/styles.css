@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'raleway';
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: 'raleway', Arial, sans-serif;
+}
+a {
+    color: #0084d0;
+}
+.history-table {
+    display: none;
+}
+
+.clickable:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1650px) {
+
+    .history-table {
+        display: initial;
+    }
+}
+strong{
+    font-weight: bold
+}
